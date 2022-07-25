@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+import logo from './images/LogoReact.png';
 import './App.css';
+import NavBar from './NavBar';
 
 function App() {
   return (
@@ -7,16 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Cerámica - <code>src/App.js</code> elementos de cerámica.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
