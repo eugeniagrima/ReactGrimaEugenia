@@ -1,5 +1,5 @@
 import "./NavBar.css"; 
-
+import CartWidget from "./CartWidget";
 
 import Nav from 'react-bootstrap/Nav';
 
@@ -15,7 +15,9 @@ function NavBar() {
       <Nav.Item as="li">
         <Nav.Link eventKey="link-2">Jarrones</Nav.Link>
       </Nav.Item>
+      <CartWidget/>
     </Nav>
-  );
+    );
+  
 }
 export default NavBar;
