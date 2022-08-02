@@ -1,5 +1,6 @@
 import "./NavBar.css"; 
 
+
 import Nav from 'react-bootstrap/Nav';
 
 function NavBar() {
@@ -17,5 +18,4 @@ function NavBar() {
     </Nav>
   );
 }
-
 export default NavBar;
