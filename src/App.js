@@ -3,7 +3,7 @@ import './App.css';
 import NavBar from './componentes/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from './componentes/Card/Card';
-import Greeting from './componentes/Greeting';
+import ItemListContainer from './componentes/ItemListContainer';
 import { Button } from '../src/componentes/Button';
 
 const dataProducto = [
@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <Greeting bienvenida={bienvenida} />
+      <ItemListContainer bienvenida={bienvenida} />
       <Card dataProducto={dataProducto[0]} />
       <Card dataProducto={dataProducto[1]} />
       <Button text="Ver más"/>
