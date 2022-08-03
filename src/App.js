@@ -4,7 +4,7 @@ import NavBar from './componentes/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from './componentes/Card/Card';
 import ItemListContainer from './componentes/ItemListContainer';
-import { Button } from '../src/componentes/Button';
+import Button from './componentes/Button/Button';
 
 const dataProducto = [
   {
