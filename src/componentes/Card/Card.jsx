@@ -13,7 +13,7 @@ function Card( props ) {
         <div className="main">
             <div className="card">
                 <div className="card-img">
-                    <img src= {props.dataProducto.imgurl} alt="imagen"></img>
+                    <img className= "img-producto" src= {props.dataProducto.imgurl} alt="imagen"></img>
                 </div>
                 <div className="card-detail">
                     <h2> {props.dataProducto.name} </h2>
