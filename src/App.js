@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from './componentes/Card/Card';
 import ItemListContainer from './componentes/ItemListContainer';
 import Button from './componentes/Button/Button';
-import ItemCount from './componentes/ItemCount';
 
 const dataProducto = [
   {
@@ -32,7 +31,6 @@ function App() {
       <ItemListContainer bienvenida={bienvenida} />
       <Card dataProducto={dataProducto[0]} />
       <Card dataProducto={dataProducto[1]} />
-      <ItemCount initial={1} stock={10}/>
       <Button text="Ver más"/>
       <img src={logo} className="App-logo" alt="logo" />
       <header className="App-header">
