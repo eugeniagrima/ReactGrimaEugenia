@@ -1,7 +1,7 @@
-export const Greeting = ({Greeting}) => {
+export const Title = ({Greeting}) => {
     return (
         <h1>{Greeting}</h1>
     );
 }
 
-export default Greeting;
+export default Title;
