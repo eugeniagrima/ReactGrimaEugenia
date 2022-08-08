@@ -1,7 +1,7 @@
 
 import React, {useEffect, useState} from "react";
 
-function ItemCount ({initial,stock, onAdd}) {
+function ItemCount ({initial,stock}) {
     const [cantidad, setCount] = useState(parseInt(initial));
     const increase= () => {
         setCount(cantidad + 1);

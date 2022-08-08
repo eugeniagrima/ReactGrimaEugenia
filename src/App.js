@@ -6,6 +6,7 @@ import Card from './componentes/Card/Card';
 import ItemListContainer from './componentes/ItemListContainer';
 import Button from './componentes/Button/Button';
 
+
 const dataProducto = [
   {
     name: "Plato ceramica",
@@ -20,15 +21,12 @@ const dataProducto = [
     description: "Taza Sofía"
     }
 ]
-const bienvenida = {
-  name: "Greeting"
-}
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
-      <ItemListContainer bienvenida={bienvenida} />
+      <ItemListContainer/>
       <Card dataProducto={dataProducto[0]} />
       <Card dataProducto={dataProducto[1]} />
       <Button text="Ver más"/>

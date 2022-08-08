@@ -1,4 +1,4 @@
-import Card from "./Card.css"
+import "./Card.css"
 import Button from "../Button/Button";
 
 function Card( props ) {
