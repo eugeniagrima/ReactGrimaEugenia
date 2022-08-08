@@ -1,6 +1,6 @@
-import "./card.css"
+import Card from "./Card.css"
 import Button from "../Button/Button";
-//ACA SOLO TIENE QUE IR EL RETURN? y en app va esto de aca abajo?
+
 function Card( props ) {
     const dataProducto = {
         name: "Plato ceramica",
